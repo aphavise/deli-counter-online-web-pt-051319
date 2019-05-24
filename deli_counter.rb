@@ -4,14 +4,14 @@ def line(katz_deli)
   if katz_deli == [ ]
     puts "The line is currently empty."
   else  
-    current_line = "The line is currently:"
-    katz_deli.each.with_index(1) do |person, i|
-      current_line << " #{i}. #{person}"
-    end
-    puts current_line 
-  # elsif katz_deli.empty? == false
-  # katz_deli.each.with_index { |x,i| }
-  #   puts "The line is currently: #{ i }. #{ x }"
+    # current_line = "The line is currently:"
+    # katz_deli.each.with_index(1) do |person, i|
+    #   current_line << " #{i}. #{person}"
+    # end
+    # puts current_line 
+  elsif katz_deli.empty? == false
+  katz_deli.each.with_index { |x,i| }
+    puts "The line is currently: #{ i }. #{ x }"
   end
 end
 
