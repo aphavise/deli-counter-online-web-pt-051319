@@ -15,9 +15,6 @@ def line(deli)
   end
 end
 
-
-def 
-  
   
 # Write your code here.
 
