@@ -1,28 +1,28 @@
 # Write your code here.
 
-def line(katz_deli)
-  if katz_deli == [ ]
-    puts "The line is currently empty."
-  elsif katz_deli.empty? == false
-  katz_deli.each.with_index { |x,i| }
-    puts "The line is currently: #{ i }. #{ x }"
-  end
-end
+# def line(katz_deli)
+#   if katz_deli == [ ]
+#     puts "The line is currently empty."
+#   elsif katz_deli.empty? == false
+#   katz_deli.each.with_index { |x,i| }
+#     puts "The line is currently: #{ i }. #{ x }"
+#   end
+# end
 
   
 # Write your code here.
 
-# def line(deli)
-#   if deli.empty?
-#     puts "The line is currently empty."
-#   else
-#     current_line = "The line is currently:"
-#     deli.each.with_index(1) do |person, i|
-#       current_line << " #{i}. #{person}"
-#     end
-#     puts current_line
-#   end
-# end
+def line(deli)
+  if deli.empty?
+    puts "The line is currently empty."
+  else
+    current_line = "The line is currently:"
+    deli.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
+    end
+    puts current_line
+  end
+end
 
 # def take_a_number(deli, name)
 #   deli << name
